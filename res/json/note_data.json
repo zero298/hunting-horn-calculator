@@ -1,0 +1,257 @@
+{
+    "availableColors": [
+        {
+            "color": "White",
+            "abbreviation": "w",
+            "hexcode": "#000000"
+        },
+        {
+            "color": "Purple",
+            "abbreviation": "p",
+            "hexcode": "#FF00FF"
+        },
+        {
+            "color": "Red",
+            "abbreviation": "r",
+            "hexcode": "#FF0000"
+        },
+        {
+            "color": "Blue",
+            "abbreviation": "b",
+            "hexcode": "#0000FF"
+        },
+        {
+            "color": "Green",
+            "abbreviation": "g",
+            "hexcode": "#00FF00"
+        },
+        {
+            "color": "Light Blue",
+            "abbreviation": "lb",
+            "hexcode": "#00FFFF"
+        },
+        {
+            "color": "Yellow",
+            "abbreviation": "y",
+            "hexcode": "#FFFF00"
+        }
+    ],
+    "songs": [
+        {
+            "songName": "Attack Up Large",
+            "notes": [
+                "Purple",
+                "Red",
+                "Red"
+            ],
+            "duration": 120
+        },
+        {
+            "songName": "Defense Up Small",
+            "notes": [
+                "Red",
+                "Yellow"
+            ],
+            "duration": 120
+        },
+        {
+            "songName": "Fire Resist Small",
+            "notes": [
+                "Red",
+                "Yellow"
+            ],
+            "duration": 60
+        },
+        {
+            "songName": "Dragon Resist Large",
+            "notes": [
+                "Purple",
+                "Yellow",
+                "Yellow"
+            ],
+            "duration": 60
+        },
+        {
+            "songName": "Supersonic Waves",
+            "notes": [
+                "Yellow",
+                "Yellow",
+                "Yellow"
+            ],
+            "duration": 0
+        },
+        {
+            "songName": "Self-Move Up",
+            "notes": [
+                "Purple",
+                "Purple"
+            ],
+            "duration": 180
+        },
+        {
+            "songName": "Self-ESP",
+            "notes": [
+                "Purple",
+                "Purple"
+            ],
+            "duration": 180
+        },
+        {
+            "songName": "Wind Pressure Perfect",
+            "notes": [
+                "Blue",
+                "Blue",
+                "Yellow",
+                "Purple"
+            ],
+            "duration": 180
+        },
+        {
+            "songName": "Infinite Stamina Large",
+            "notes": [
+                "Purple",
+                "Blue",
+                "Blue"
+            ],
+            "duration": 180
+        },
+        {
+            "songName": "Water Resist Small",
+            "notes": [
+                "Yellow",
+                "Blue",
+                "Purple"
+            ],
+            "duration": 60
+        },
+        {
+            "songName": "Thunder Resist Large",
+            "notes": [
+                "Yellow",
+                "Yellow",
+                "Blue"
+            ],
+            "duration": 60
+        },
+        {
+            "songName": "Dragon Resist Large",
+            "notes": [
+                "Purple",
+                "Yellow",
+                "Yellow"
+            ],
+            "duration": 60
+        },
+        {
+            "songName": "Supersonic Waves",
+            "notes": [
+                "Yellow",
+                "Yellow",
+                "Yellow"
+            ],
+            "duration": 0
+        },
+        {
+            "songName": "Self-Move Up",
+            "notes": [
+                "Purple",
+                "Purple"
+            ],
+            "duration": 180
+        },
+        {
+            "songName": "Self-ESP",
+            "notes": [
+                "Purple",
+                "Purple"
+            ],
+            "duration": 180
+        },
+        {
+            "songName": "Auto-Detect",
+            "notes": [
+                "Blue",
+                "Blue",
+                "Lightblue"
+            ],
+            "duration": 60
+        },
+        {
+            "songName": "Wind Pressure Large",
+            "notes": [
+                "Blue",
+                "Lightblue",
+                "Blue"
+            ],
+            "duration": 180
+        },
+        {
+            "songName": "Infinite Stamina Large",
+            "notes": [
+                "Purple",
+                "Blue",
+                "Blue"
+            ],
+            "duration": 180
+        },
+        {
+            "songName": "Negate Faint",
+            "notes": [
+                "Lightblue",
+                "Blue",
+                "Purple"
+            ],
+            "duration": 180
+        },
+        {
+            "songName": "Self-Move Up",
+            "notes": [
+                "Purple",
+                "Purple"
+            ],
+            "duration": 180
+        },
+        {
+            "songName": "Self-ESP",
+            "notes": [
+                "Purple",
+                "Purple"
+            ],
+            "duration": 180
+        },
+        {
+            "songName": "Anti-Cold and Freeze",
+            "notes": [
+                "Lightblue",
+                "Lightblue",
+                "Yellow"
+            ],
+            "duration": 240
+        },
+        {
+            "songName": "Negate Paralyze",
+            "notes": [
+                "Lightblue",
+                "Yellow",
+                "Lightblue"
+            ],
+            "duration": 180
+        },
+        {
+            "songName": "Negate Quake",
+            "notes": [
+                "Lightblue",
+                "Yellow",
+                "Lightblue"
+            ],
+            "duration": 180
+        },
+        {
+            "songName": "",
+            "notes": [
+                "o"
+            ],
+            "duration": 0
+        }
+    ]
+}

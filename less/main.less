@@ -1,0 +1,103 @@
+body.hhcalc {
+    background-color: #FFFFFF;
+    color: #000000;
+    font-family: Arial;
+    font-size: 16px;
+
+    label {
+        font-size: 0px;
+        height: 0px;
+        display: none;
+    }
+
+    button {
+        display: inline-block;
+        outline: 2px solid #FFFFFF;
+        
+        &:focus {
+            outline: 2px solid #6699FF;
+        }
+    }
+
+    select {
+        margin: auto;
+        max-width: 480px;
+        width: 100%;
+    }
+
+    h1,
+    header,
+    footer,
+    #selectableNotes,
+    #clearButtonContainer,
+    #selectedNotesChart,
+    #availableSongChart {
+        width: 100%;
+        text-align: center;
+    }
+
+    footer {
+        position: fixed;
+        bottom: 0px;
+    }
+
+    #clearNotes,
+    .note {
+        border: 0px solid transparent;
+        height: 64px;
+        width: 64px;
+        background-position: 0px 0px;
+        background-image: url("../res/img/hh.png");
+        background-color: #FFFFFF;
+        background-size: 512px;
+        display: inline-block;
+
+        &.white {
+            background-color: #FFFFFF;
+        }
+        &.purple {
+            background-color: #FF00FF;
+        }
+        &.red {
+            background-color: #FF0000;
+        }
+        &.blue {
+            background-color: #0000FF;
+        }
+        &.green {
+            background-color: #00FF00;
+        }
+        &.lightblue {
+            background-color: #00FFFF;
+        }
+        &.yellow {
+            background-color: #FFFF00;
+        }
+    }
+
+    #clearNotes {
+        background-position: -64px 0px;
+    }
+
+    #availableSongChart {
+        display: table;
+        
+        .noteResults {
+            display: table-row;
+            width: 100%;
+
+            .noteResultsTitle,
+            .noteResultsDuration,
+            .noteResultsNotes {
+                text-align: center;
+                display: table-cell;
+            }
+
+            .note {
+                height: 32px;
+                width: 32px;
+                background-size: 256px;
+            }
+        }
+    }
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hunting Horn Song Finder</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/main.css"/>
+        <script src="/js/find_notes2.js"></script>
+    </head>
+    <body class="hhcalc">
+        <header>
+            <label for="gameSelect">Select a game</label>
+            <select id="gameSelect">
+                <option value="" disabled>Select a game</option>
+                <option value="mh3u">Monster Hunter 3 Ultimate</option>
+                <option value="mh4u" selected>Monster Hunter 4 Ultimate</option>
+            </select>
+        </header>
+        <section>
+            <h1>Selectable Notes</h1>
+            <div id="selectableNotes">
+                <!--
+                <button class="note white" title="White Note" value="White" data-color="White"></button
+                ><button class="note purple" title="Purple Note" value="Purple" data-color="Purple"></button
+                ><button class="note red" title="Red Note" value="Red" data-color="Red"></button
+                ><button class="note blue" title="BlueNote" value="Blue" data-color="Blue"></button
+                ><button class="note green" title="Green Note" value="Green" data-color="Green"></button
+                ><button class="note lightblue" title="Light Blue Note" value="Light Blue" data-color="Lightblue"></button
+                ><button class="note yellow" title="Yellow Note" value="Yellow" data-color="Yellow"></button>
+                -->
+            </div>
+            <div id="clearButtonContainer">
+                <button id="clearNotes" title="Clear Notes" value="Clear Notes"></button>
+            </div>
+        </section>
+        <section>
+            <h1>Available Songs</h1>
+            <div id="availableSongChart">
+                Please select notes
+            </div>
+        </section>
+        <footer>
+            <div>Monster Hunter Hunting Horn Calculator</div>
+        </footer>
+    </body>
+</html>

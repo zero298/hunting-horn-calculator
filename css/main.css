@@ -1,0 +1,98 @@
+body.hhcalc {
+  background-color: #FFFFFF;
+  color: #000000;
+  font-family: Arial;
+  font-size: 16px;
+}
+body.hhcalc label {
+  font-size: 0px;
+  height: 0px;
+  display: none;
+}
+body.hhcalc button {
+  display: inline-block;
+  outline: 2px solid #FFFFFF;
+}
+body.hhcalc button:focus {
+  outline: 2px solid #6699FF;
+}
+body.hhcalc select {
+  margin: auto;
+  max-width: 480px;
+  width: 100%;
+}
+body.hhcalc h1,
+body.hhcalc header,
+body.hhcalc footer,
+body.hhcalc #selectableNotes,
+body.hhcalc #clearButtonContainer,
+body.hhcalc #selectedNotesChart,
+body.hhcalc #availableSongChart {
+  width: 100%;
+  text-align: center;
+}
+body.hhcalc footer {
+  position: fixed;
+  bottom: 0px;
+}
+body.hhcalc #clearNotes,
+body.hhcalc .note {
+  border: 0px solid transparent;
+  height: 64px;
+  width: 64px;
+  background-position: 0px 0px;
+  background-image: url("../res/img/hh.png");
+  background-color: #FFFFFF;
+  background-size: 512px;
+  display: inline-block;
+}
+body.hhcalc #clearNotes.white,
+body.hhcalc .note.white {
+  background-color: #FFFFFF;
+}
+body.hhcalc #clearNotes.purple,
+body.hhcalc .note.purple {
+  background-color: #FF00FF;
+}
+body.hhcalc #clearNotes.red,
+body.hhcalc .note.red {
+  background-color: #FF0000;
+}
+body.hhcalc #clearNotes.blue,
+body.hhcalc .note.blue {
+  background-color: #0000FF;
+}
+body.hhcalc #clearNotes.green,
+body.hhcalc .note.green {
+  background-color: #00FF00;
+}
+body.hhcalc #clearNotes.lightblue,
+body.hhcalc .note.lightblue {
+  background-color: #00FFFF;
+}
+body.hhcalc #clearNotes.yellow,
+body.hhcalc .note.yellow {
+  background-color: #FFFF00;
+}
+body.hhcalc #clearNotes {
+  background-position: -64px 0px;
+}
+body.hhcalc #availableSongChart {
+  display: table;
+}
+body.hhcalc #availableSongChart .noteResults {
+  display: table-row;
+  width: 100%;
+}
+body.hhcalc #availableSongChart .noteResults .noteResultsTitle,
+body.hhcalc #availableSongChart .noteResults .noteResultsDuration,
+body.hhcalc #availableSongChart .noteResults .noteResultsNotes {
+  text-align: center;
+  display: table-cell;
+}
+body.hhcalc #availableSongChart .noteResults .note {
+  height: 32px;
+  width: 32px;
+  background-size: 256px;
+}
+/*# sourceMappingURL=main.css.map */
