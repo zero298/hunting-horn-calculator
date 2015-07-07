@@ -1,257 +1,1628 @@
 {
     "availableColors": [
         {
-            "color": "White",
+            "color": "white",
             "abbreviation": "w",
             "hexcode": "#000000"
         },
         {
-            "color": "Purple",
+            "color": "purple",
             "abbreviation": "p",
             "hexcode": "#FF00FF"
         },
         {
-            "color": "Red",
+            "color": "red",
             "abbreviation": "r",
             "hexcode": "#FF0000"
         },
         {
-            "color": "Blue",
+            "color": "blue",
             "abbreviation": "b",
             "hexcode": "#0000FF"
         },
         {
-            "color": "Green",
+            "color": "green",
             "abbreviation": "g",
             "hexcode": "#00FF00"
         },
         {
-            "color": "Light Blue",
+            "color": "aqua",
             "abbreviation": "lb",
             "hexcode": "#00FFFF"
         },
         {
-            "color": "Yellow",
+            "color": "yellow",
             "abbreviation": "y",
             "hexcode": "#FFFF00"
         }
     ],
     "songs": [
         {
-            "songName": "Attack Up Large",
             "notes": [
-                "Purple",
-                "Red",
-                "Red"
+                "white",
+                "white"
             ],
-            "duration": 120
+            "firstSong": "Movement Speed Up",
+            "encoreSong": "Attack Deflection Prevention",
+            "firstDuration": 180,
+            "encoreExtension": 90
         },
         {
-            "songName": "Defense Up Small",
             "notes": [
-                "Red",
-                "Yellow"
+                "white",
+                "red",
+                "red"
             ],
-            "duration": 120
+            "firstSong": "Attack Boost (S)",
+            "encoreSong": "Attack Boost Bonus",
+            "firstDuration": 120,
+            "encoreExtension": 90
         },
         {
-            "songName": "Fire Resist Small",
             "notes": [
-                "Red",
-                "Yellow"
+                "white",
+                "blue",
+                "blue"
             ],
-            "duration": 60
+            "firstSong": "Defense Boost (S)",
+            "encoreSong": "Defense Boost Bonus",
+            "firstDuration": 120,
+            "encoreExtension": 90
         },
         {
-            "songName": "Dragon Resist Large",
             "notes": [
-                "Purple",
-                "Yellow",
-                "Yellow"
+                "red",
+                "blue",
+                "white"
             ],
-            "duration": 60
+            "firstSong": "Health Boost (S)",
+            "encoreSong": "N/A",
+            "firstDuration": 180,
+            "encoreExtension": -1
         },
         {
-            "songName": "Supersonic Waves",
             "notes": [
-                "Yellow",
-                "Yellow",
-                "Yellow"
+                "blue",
+                "blue",
+                "red"
             ],
-            "duration": 0
+            "firstSong": "Wind Pressure Negated",
+            "encoreSong": "All Wind Pressure Negated",
+            "firstDuration": 180,
+            "encoreExtension": 120
         },
         {
-            "songName": "Self-Move Up",
             "notes": [
-                "Purple",
-                "Purple"
+                "white",
+                "white"
             ],
-            "duration": 180
+            "firstSong": "Movement Speed Up",
+            "encoreSong": "Attack Deflection Prevention",
+            "firstDuration": 180,
+            "encoreExtension": 90
         },
         {
-            "songName": "Self-ESP",
             "notes": [
-                "Purple",
-                "Purple"
+                "white",
+                "red",
+                "red"
             ],
-            "duration": 180
+            "firstSong": "Attack Boost (S)",
+            "encoreSong": "Attack Boost Bonus",
+            "firstDuration": 120,
+            "encoreExtension": 90
         },
         {
-            "songName": "Wind Pressure Perfect",
             "notes": [
-                "Blue",
-                "Blue",
-                "Yellow",
-                "Purple"
+                "white",
+                "green",
+                "white"
             ],
-            "duration": 180
+            "firstSong": "Health Recovery (S)",
+            "encoreSong": "N/A",
+            "firstDuration": -1,
+            "encoreExtension": -1
         },
         {
-            "songName": "Infinite Stamina Large",
             "notes": [
-                "Purple",
-                "Blue",
-                "Blue"
+                "green",
+                "green",
+                "red",
+                "white"
             ],
-            "duration": 180
+            "firstSong": "Recovery Speed Up (S)",
+            "encoreSong": "N/A",
+            "firstDuration": 120,
+            "encoreExtension": -1
         },
         {
-            "songName": "Water Resist Small",
             "notes": [
-                "Yellow",
-                "Blue",
-                "Purple"
+                "white",
+                "white"
             ],
-            "duration": 60
+            "firstSong": "Movement Speed Up",
+            "encoreSong": "Attack Deflection Prevention",
+            "firstDuration": 180,
+            "encoreExtension": 90
         },
         {
-            "songName": "Thunder Resist Large",
             "notes": [
-                "Yellow",
-                "Yellow",
-                "Blue"
+                "white",
+                "red",
+                "red"
             ],
-            "duration": 60
+            "firstSong": "Attack Boost (S)",
+            "encoreSong": "Attack Boost Bonus",
+            "firstDuration": 120,
+            "encoreExtension": 90
         },
         {
-            "songName": "Dragon Resist Large",
             "notes": [
-                "Purple",
-                "Yellow",
-                "Yellow"
+                "red",
+                "red",
+                "aqua"
             ],
-            "duration": 60
+            "firstSong": "Heat Cancel",
+            "encoreSong": "N/A",
+            "firstDuration": 240,
+            "encoreExtension": -1
         },
         {
-            "songName": "Supersonic Waves",
             "notes": [
-                "Yellow",
-                "Yellow",
-                "Yellow"
+                "aqua",
+                "red",
+                "aqua"
             ],
-            "duration": 0
+            "firstSong": "Cold Cancel",
+            "encoreSong": "N/A",
+            "firstDuration": 240,
+            "encoreExtension": -1
         },
         {
-            "songName": "Self-Move Up",
             "notes": [
-                "Purple",
-                "Purple"
+                "aqua",
+                "aqua",
+                "aqua"
             ],
-            "duration": 180
+            "firstSong": "Snow/Mud Negated",
+            "encoreSong": "N/A",
+            "firstDuration": 180,
+            "encoreExtension": -1
         },
         {
-            "songName": "Self-ESP",
             "notes": [
-                "Purple",
-                "Purple"
+                "aqua",
+                "aqua",
+                "red",
+                "white"
             ],
-            "duration": 180
+            "firstSong": "Hearing Protection (S)",
+            "encoreSong": "Hearing Protection (L)",
+            "firstDuration": 180,
+            "encoreExtension": -1
         },
         {
-            "songName": "Auto-Detect",
             "notes": [
-                "Blue",
-                "Blue",
-                "Lightblue"
+                "white",
+                "white"
             ],
-            "duration": 60
+            "firstSong": "Movement Speed Up",
+            "encoreSong": "Attack Deflection Prevention",
+            "firstDuration": 180,
+            "encoreExtension": 90
         },
         {
-            "songName": "Wind Pressure Large",
             "notes": [
-                "Blue",
-                "Lightblue",
-                "Blue"
+                "white",
+                "red",
+                "red"
             ],
-            "duration": 180
+            "firstSong": "Attack Boost (S)",
+            "encoreSong": "Attack Boost Bonus",
+            "firstDuration": 120,
+            "encoreExtension": 90
         },
         {
-            "songName": "Infinite Stamina Large",
             "notes": [
-                "Purple",
-                "Blue",
-                "Blue"
+                "yellow",
+                "red",
+                "white"
             ],
-            "duration": 180
+            "firstSong": "Fire Resistance Boost (S)",
+            "encoreSong": "Fire Resistance Boost Bonus",
+            "firstDuration": 120,
+            "encoreExtension": -1
         },
         {
-            "songName": "Negate Faint",
             "notes": [
-                "Lightblue",
-                "Blue",
-                "Purple"
+                "yellow",
+                "yellow",
+                "yellow"
             ],
-            "duration": 180
+            "firstSong": "Sonic Waves",
+            "encoreSong": "N/A",
+            "firstDuration": -1,
+            "encoreExtension": -1
         },
         {
-            "songName": "Self-Move Up",
             "notes": [
-                "Purple",
-                "Purple"
+                "white",
+                "white"
             ],
-            "duration": 180
+            "firstSong": "Movement Speed Up",
+            "encoreSong": "Attack Deflection Prevention",
+            "firstDuration": 180,
+            "encoreExtension": 90
         },
         {
-            "songName": "Self-ESP",
             "notes": [
-                "Purple",
-                "Purple"
+                "white",
+                "red",
+                "red"
             ],
-            "duration": 180
+            "firstSong": "Attack Boost (S)",
+            "encoreSong": "Attack Boost Bonus",
+            "firstDuration": 120,
+            "encoreExtension": 90
         },
         {
-            "songName": "Anti-Cold and Freeze",
             "notes": [
-                "Lightblue",
-                "Lightblue",
-                "Yellow"
+                "yellow",
+                "red",
+                "white"
             ],
-            "duration": 240
+            "firstSong": "Fire Resistance Boost (S)",
+            "encoreSong": "Fire Resistance Boost Bonus",
+            "firstDuration": 120,
+            "encoreExtension": -1
         },
         {
-            "songName": "Negate Paralyze",
             "notes": [
-                "Lightblue",
-                "Yellow",
-                "Lightblue"
+                "yellow",
+                "yellow",
+                "yellow"
             ],
-            "duration": 180
+            "firstSong": "Sonic Waves",
+            "encoreSong": "N/A",
+            "firstDuration": -1,
+            "encoreExtension": -1
         },
         {
-            "songName": "Negate Quake",
             "notes": [
-                "Lightblue",
-                "Yellow",
-                "Lightblue"
+                "white",
+                "white"
             ],
-            "duration": 180
+            "firstSong": "Movement Speed Up",
+            "encoreSong": "Attack Deflection Prevention",
+            "firstDuration": 180,
+            "encoreExtension": 90
         },
         {
-            "songName": "",
             "notes": [
-                "o"
+                "white",
+                "blue",
+                "blue"
             ],
-            "duration": 0
+            "firstSong": "Defense Boost (S)",
+            "encoreSong": "Defense Boost Bonus",
+            "firstDuration": 120,
+            "encoreExtension": 90
+        },
+        {
+            "notes": [
+                "white",
+                "green",
+                "white"
+            ],
+            "firstSong": "Health Recovery (S)",
+            "encoreSong": "N/A",
+            "firstDuration": -1,
+            "encoreExtension": -1
+        },
+        {
+            "notes": [
+                "white",
+                "green",
+                "blue"
+            ],
+            "firstSong": "Negate Stamina Use (S)",
+            "encoreSong": "Negate Stamina Duration Bonus",
+            "firstDuration": 90,
+            "encoreExtension": 60
+        },
+        {
+            "notes": [
+                "blue",
+                "blue",
+                "green"
+            ],
+            "firstSong": "Wind Pressure Negated",
+            "encoreSong": "All Wind Pressure Negated",
+            "firstDuration": 180,
+            "encoreExtension": 120
+        },
+        {
+            "notes": [
+                "green",
+                "blue",
+                "white",
+                "blue"
+            ],
+            "firstSong": "Health Rec (S) & Antidote",
+            "encoreSong": "N/A",
+            "firstDuration": -1,
+            "encoreExtension": -1
+        },
+        {
+            "notes": [
+                "white",
+                "white"
+            ],
+            "firstSong": "Movement Speed Up",
+            "encoreSong": "Attack Deflection Prevention",
+            "firstDuration": 180,
+            "encoreExtension": 90
+        },
+        {
+            "notes": [
+                "white",
+                "blue",
+                "blue"
+            ],
+            "firstSong": "Defense Boost (S)",
+            "encoreSong": "Defense Boost Bonus",
+            "firstDuration": 120,
+            "encoreExtension": 90
+        },
+        {
+            "notes": [
+                "white",
+                "blue",
+                "aqua"
+            ],
+            "firstSong": "Psychic",
+            "encoreSong": "N/A",
+            "firstDuration": 30,
+            "encoreExtension": -1
+        },
+        {
+            "notes": [
+                "white",
+                "aqua",
+                "blue"
+            ],
+            "firstSong": "Negate Stamina Use (S)",
+            "encoreSong": "Negate Stamina Duration Bonus",
+            "firstDuration": 90,
+            "encoreExtension": 60
+        },
+        {
+            "notes": [
+                "blue",
+                "blue",
+                "aqua"
+            ],
+            "firstSong": "Wind Pressure Negated",
+            "encoreSong": "All Wind Pressure Negated",
+            "firstDuration": 180,
+            "encoreExtension": 120
+        },
+        {
+            "notes": [
+                "aqua",
+                "aqua",
+                "aqua"
+            ],
+            "firstSong": "Snow/Mud Negated",
+            "encoreSong": "N/A",
+            "firstDuration": 180,
+            "encoreExtension": -1
+        },
+        {
+            "notes": [
+                "white",
+                "white"
+            ],
+            "firstSong": "Movement Speed Up",
+            "encoreSong": "Attack Deflection Prevention",
+            "firstDuration": 180,
+            "encoreExtension": 90
+        },
+        {
+            "notes": [
+                "white",
+                "blue",
+                "blue"
+            ],
+            "firstSong": "Defense Boost (S)",
+            "encoreSong": "Defense Boost Bonus",
+            "firstDuration": 120,
+            "encoreExtension": 90
+        },
+        {
+            "notes": [
+                "white",
+                "yellow",
+                "blue"
+            ],
+            "firstSong": "Negate Stamina Use (S)",
+            "encoreSong": "Negate Stamina Duration Bonus",
+            "firstDuration": 90,
+            "encoreExtension": 60
+        },
+        {
+            "notes": [
+                "yellow",
+                "blue",
+                "white"
+            ],
+            "firstSong": "Ice Resistance Boost (S)",
+            "encoreSong": "Ice Resistance Boost Bonus",
+            "firstDuration": 120,
+            "encoreExtension": -1
+        },
+        {
+            "notes": [
+                "yellow",
+                "yellow",
+                "yellow"
+            ],
+            "firstSong": "Sonic Waves",
+            "encoreSong": "N/A",
+            "firstDuration": -1,
+            "encoreExtension": -1
+        },
+        {
+            "notes": [
+                "white",
+                "white"
+            ],
+            "firstSong": "Movement Speed Up",
+            "encoreSong": "Attack Deflection Prevention",
+            "firstDuration": 180,
+            "encoreExtension": 90
+        },
+        {
+            "notes": [
+                "white",
+                "green",
+                "white"
+            ],
+            "firstSong": "Health Recovery (S)",
+            "encoreSong": "N/A",
+            "firstDuration": -1,
+            "encoreExtension": -1
+        },
+        {
+            "notes": [
+                "green",
+                "white",
+                "aqua",
+                "green"
+            ],
+            "firstSong": "Health Rec (M) & Deodorant",
+            "encoreSong": "N/A",
+            "firstDuration": -1,
+            "encoreExtension": -1
+        },
+        {
+            "notes": [
+                "aqua",
+                "aqua",
+                "aqua"
+            ],
+            "firstSong": "Snow/Mud Negated",
+            "encoreSong": "N/A",
+            "firstDuration": 180,
+            "encoreExtension": -1
+        },
+        {
+            "notes": [
+                "aqua",
+                "aqua",
+                "green",
+                "white"
+            ],
+            "firstSong": "Hearing Protection (S)",
+            "encoreSong": "Hearing Protection (L)",
+            "firstDuration": 180,
+            "encoreExtension": -1
+        },
+        {
+            "notes": [
+                "white",
+                "white"
+            ],
+            "firstSong": "Movement Speed Up",
+            "encoreSong": "Attack Deflection Prevention",
+            "firstDuration": 180,
+            "encoreExtension": 90
+        },
+        {
+            "notes": [
+                "white",
+                "green",
+                "white"
+            ],
+            "firstSong": "Health Recovery (S)",
+            "encoreSong": "N/A",
+            "firstDuration": -1,
+            "encoreExtension": -1
+        },
+        {
+            "notes": [
+                "green",
+                "green",
+                "yellow",
+                "white"
+            ],
+            "firstSong": "Recovery Speed Up (S)",
+            "encoreSong": "N/A",
+            "firstDuration": 120,
+            "encoreExtension": -1
+        },
+        {
+            "notes": [
+                "yellow",
+                "green",
+                "white"
+            ],
+            "firstSong": "Thunder Resistance Boost (S)",
+            "encoreSong": "Thunder Resistance Boost Bonus",
+            "firstDuration": 120,
+            "encoreExtension": -1
+        },
+        {
+            "notes": [
+                "yellow",
+                "yellow",
+                "yellow"
+            ],
+            "firstSong": "Sonic Waves",
+            "encoreSong": "N/A",
+            "firstDuration": -1,
+            "encoreExtension": -1
+        },
+        {
+            "notes": [
+                "white",
+                "white"
+            ],
+            "firstSong": "Movement Speed Up",
+            "encoreSong": "Attack Deflection Prevention",
+            "firstDuration": 180,
+            "encoreExtension": 90
+        },
+        {
+            "notes": [
+                "white",
+                "yellow",
+                "aqua"
+            ],
+            "firstSong": "Dragon Resistance Boost (S)",
+            "encoreSong": "Dragon Resistance Boost Bonus",
+            "firstDuration": 120,
+            "encoreExtension": -1
+        },
+        {
+            "notes": [
+                "aqua",
+                "aqua",
+                "aqua"
+            ],
+            "firstSong": "Snow/Mud Negated",
+            "encoreSong": "N/A",
+            "firstDuration": 180,
+            "encoreExtension": -1
+        },
+        {
+            "notes": [
+                "aqua",
+                "aqua",
+                "yellow"
+            ],
+            "firstSong": "Tremor Resistance",
+            "encoreSong": "N/A",
+            "firstDuration": 180,
+            "encoreExtension": -1
+        },
+        {
+            "notes": [
+                "aqua",
+                "yellow",
+                "white"
+            ],
+            "firstSong": "Negate Paralysis",
+            "encoreSong": "N/A",
+            "firstDuration": 180,
+            "encoreExtension": -1
+        },
+        {
+            "notes": [
+                "yellow",
+                "aqua",
+                "white"
+            ],
+            "firstSong": "Water Resistance Boost (S)",
+            "encoreSong": "Water Resistance Boost Bonus",
+            "firstDuration": 120,
+            "encoreExtension": -1
+        },
+        {
+            "notes": [
+                "yellow",
+                "aqua",
+                "yellow",
+                "aqua"
+            ],
+            "firstSong": "Elemental Attack Boost",
+            "encoreSong": "Elemental Attack Boost Bonus",
+            "firstDuration": 90,
+            "encoreExtension": 60
+        },
+        {
+            "notes": [
+                "yellow",
+                "yellow",
+                "yellow"
+            ],
+            "firstSong": "Sonic Waves",
+            "encoreSong": "N/A",
+            "firstDuration": -1,
+            "encoreExtension": -1
+        },
+        {
+            "notes": [
+                "purple",
+                "purple"
+            ],
+            "firstSong": "Movement Speed Up",
+            "encoreSong": "Attack Deflection Prevention",
+            "firstDuration": 180,
+            "encoreExtension": 90
+        },
+        {
+            "notes": [
+                "purple",
+                "red",
+                "blue",
+                "purple"
+            ],
+            "firstSong": "Attack Boost (L)",
+            "encoreSong": "Attack Boost Bonus",
+            "firstDuration": 90,
+            "encoreExtension": 60
+        },
+        {
+            "notes": [
+                "purple",
+                "blue",
+                "blue",
+                "purple"
+            ],
+            "firstSong": "Defense Boost (L)",
+            "encoreSong": "Defense Boost Bonus",
+            "firstDuration": 90,
+            "encoreExtension": 60
+        },
+        {
+            "notes": [
+                "red",
+                "blue",
+                "red",
+                "purple"
+            ],
+            "firstSong": "Health Boost (L)",
+            "encoreSong": "N/A",
+            "firstDuration": 180,
+            "encoreExtension": -1
+        },
+        {
+            "notes": [
+                "blue",
+                "blue",
+                "red"
+            ],
+            "firstSong": "Wind Pressure Negated",
+            "encoreSong": "All Wind Pressure Negated",
+            "firstDuration": 180,
+            "encoreExtension": 120
+        },
+        {
+            "notes": [
+                "purple",
+                "purple"
+            ],
+            "firstSong": "Movement Speed Up",
+            "encoreSong": "Attack Deflection Prevention",
+            "firstDuration": 180,
+            "encoreExtension": 90
+        },
+        {
+            "notes": [
+                "purple",
+                "red",
+                "green",
+                "purple"
+            ],
+            "firstSong": "Attack Boost (L)",
+            "encoreSong": "Attack Boost Bonus",
+            "firstDuration": 90,
+            "encoreExtension": 60
+        },
+        {
+            "notes": [
+                "purple",
+                "green",
+                "purple"
+            ],
+            "firstSong": "Health Recovery (S)",
+            "encoreSong": "N/A",
+            "firstDuration": -1,
+            "encoreExtension": -1
+        },
+        {
+            "notes": [
+                "green",
+                "green",
+                "red",
+                "purple"
+            ],
+            "firstSong": "Recovery Speed Up (L)",
+            "encoreSong": "N/A",
+            "firstDuration": 120,
+            "encoreExtension": -1
+        },
+        {
+            "notes": [
+                "purple",
+                "purple"
+            ],
+            "firstSong": "Movement Speed Up",
+            "encoreSong": "Attack Deflection Prevention",
+            "firstDuration": 180,
+            "encoreExtension": 90
+        },
+        {
+            "notes": [
+                "purple",
+                "red",
+                "aqua",
+                "purple"
+            ],
+            "firstSong": "Attack Boost (L)",
+            "encoreSong": "Attack Boost Bonus",
+            "firstDuration": 90,
+            "encoreExtension": 60
+        },
+        {
+            "notes": [
+                "red",
+                "red",
+                "aqua"
+            ],
+            "firstSong": "Heat Cancel",
+            "encoreSong": "N/A",
+            "firstDuration": 240,
+            "encoreExtension": -1
+        },
+        {
+            "notes": [
+                "aqua",
+                "red",
+                "aqua"
+            ],
+            "firstSong": "Cold Cancel",
+            "encoreSong": "N/A",
+            "firstDuration": 240,
+            "encoreExtension": -1
+        },
+        {
+            "notes": [
+                "aqua",
+                "aqua",
+                "red",
+                "purple"
+            ],
+            "firstSong": "Hearing Protection (S)",
+            "encoreSong": "Hearing Protection (L)",
+            "firstDuration": 180,
+            "encoreExtension": -1
+        },
+        {
+            "notes": [
+                "aqua",
+                "aqua",
+                "aqua"
+            ],
+            "firstSong": "Snow/Mud Negated",
+            "encoreSong": "N/A",
+            "firstDuration": 180,
+            "encoreExtension": -1
+        },
+        {
+            "notes": [
+                "purple",
+                "purple"
+            ],
+            "firstSong": "Movement Speed Up",
+            "encoreSong": "Attack Deflection Prevention",
+            "firstDuration": 180,
+            "encoreExtension": 90
+        },
+        {
+            "notes": [
+                "purple",
+                "red",
+                "yellow"
+            ],
+            "firstSong": "Attack Boost (S)",
+            "encoreSong": "Attack Boost Bonus",
+            "firstDuration": 120,
+            "encoreExtension": 90
+        },
+        {
+            "notes": [
+                "red",
+                "yellow",
+                "purple"
+            ],
+            "firstSong": "Attack Boost (S)",
+            "encoreSong": "Attack Boost Bonus",
+            "firstDuration": 120,
+            "encoreExtension": 90
+        },
+        {
+            "notes": [
+                "yellow",
+                "purple",
+                "red"
+            ],
+            "firstSong": "Attack Boost (S)",
+            "encoreSong": "Attack Boost Bonus",
+            "firstDuration": 120,
+            "encoreExtension": 90
+        },
+        {
+            "notes": [
+                "yellow",
+                "red",
+                "purple"
+            ],
+            "firstSong": "Fire Resistance Boost (L)",
+            "encoreSong": "Fire Resistance Boost Bonus",
+            "firstDuration": 120,
+            "encoreExtension": -1
+        },
+        {
+            "notes": [
+                "yellow",
+                "yellow",
+                "yellow"
+            ],
+            "firstSong": "Sonic Waves",
+            "encoreSong": "N/A",
+            "firstDuration": -1,
+            "encoreExtension": -1
+        },
+        {
+            "notes": [
+                "purple",
+                "purple"
+            ],
+            "firstSong": "Movement Speed Up",
+            "encoreSong": "Attack Deflection Prevention",
+            "firstDuration": 180,
+            "encoreExtension": 90
+        },
+        {
+            "notes": [
+                "purple",
+                "blue",
+                "blue",
+                "purple"
+            ],
+            "firstSong": "Defense Boost (L)",
+            "encoreSong": "Defense Boost Bonus",
+            "firstDuration": 90,
+            "encoreExtension": 60
+        },
+        {
+            "notes": [
+                "purple",
+                "green",
+                "purple"
+            ],
+            "firstSong": "Health Recovery (S)",
+            "encoreSong": "N/A",
+            "firstDuration": -1,
+            "encoreExtension": -1
+        },
+        {
+            "notes": [
+                "purple",
+                "green",
+                "blue",
+                "green"
+            ],
+            "firstSong": "Negate Stamina Use (L)",
+            "encoreSong": "Negate Stamina Duration Bonus",
+            "firstDuration": 120,
+            "encoreExtension": 90
+        },
+        {
+            "notes": [
+                "blue",
+                "blue",
+                "green"
+            ],
+            "firstSong": "Wind Pressure Negated",
+            "encoreSong": "All Wind Pressure Negated",
+            "firstDuration": 180,
+            "encoreExtension": 120
+        },
+        {
+            "notes": [
+                "green",
+                "blue",
+                "purple",
+                "blue"
+            ],
+            "firstSong": "Health Rec (M) & Antidote",
+            "encoreSong": "N/A",
+            "firstDuration": -1,
+            "encoreExtension": -1
+        },
+        {
+            "notes": [
+                "purple",
+                "purple"
+            ],
+            "firstSong": "Movement Speed Up",
+            "encoreSong": "Attack Deflection Prevention",
+            "firstDuration": 180,
+            "encoreExtension": 90
+        },
+        {
+            "notes": [
+                "purple",
+                "blue",
+                "blue",
+                "purple"
+            ],
+            "firstSong": "Defense Boost (L)",
+            "encoreSong": "Defense Boost Bonus",
+            "firstDuration": 90,
+            "encoreExtension": 60
+        },
+        {
+            "notes": [
+                "purple",
+                "blue",
+                "aqua"
+            ],
+            "firstSong": "Psychic",
+            "encoreSong": "N/A",
+            "firstDuration": 30,
+            "encoreExtension": -1
+        },
+        {
+            "notes": [
+                "purple",
+                "aqua",
+                "blue",
+                "aqua"
+            ],
+            "firstSong": "Negate Stamina Use (L)",
+            "encoreSong": "Negate Stamina Duration Bonus",
+            "firstDuration": 120,
+            "encoreExtension": 90
+        },
+        {
+            "notes": [
+                "blue",
+                "blue",
+                "aqua"
+            ],
+            "firstSong": "Wind Pressure Negated",
+            "encoreSong": "All Wind Pressure Negated",
+            "firstDuration": 180,
+            "encoreExtension": 120
+        },
+        {
+            "notes": [
+                "aqua",
+                "blue",
+                "purple"
+            ],
+            "firstSong": "Negate Stun",
+            "encoreSong": "N/A",
+            "firstDuration": 180,
+            "encoreExtension": -1
+        },
+        {
+            "notes": [
+                "aqua",
+                "aqua",
+                "aqua"
+            ],
+            "firstSong": "Snow/Mud Negated",
+            "encoreSong": "N/A",
+            "firstDuration": 180,
+            "encoreExtension": -1
+        },
+        {
+            "notes": [
+                "purple",
+                "purple"
+            ],
+            "firstSong": "Movement Speed Up",
+            "encoreSong": "Attack Deflection Prevention",
+            "firstDuration": 180,
+            "encoreExtension": 90
+        },
+        {
+            "notes": [
+                "purple",
+                "blue",
+                "blue",
+                "purple"
+            ],
+            "firstSong": "Defense Boost (L)",
+            "encoreSong": "Defense Boost Bonus",
+            "firstDuration": 90,
+            "encoreExtension": 60
+        },
+        {
+            "notes": [
+                "purple",
+                "yellow",
+                "blue"
+            ],
+            "firstSong": "Negate Stamina Use (L)",
+            "encoreSong": "Negate Stamina Duration Bonus",
+            "firstDuration": 120,
+            "encoreExtension": 90
+        },
+        {
+            "notes": [
+                "blue",
+                "blue",
+                "yellow",
+                "purple"
+            ],
+            "firstSong": "All Wind Pressure Negated",
+            "encoreSong": "N/A",
+            "firstDuration": 180,
+            "encoreExtension": -1
+        },
+        {
+            "notes": [
+                "yellow",
+                "blue",
+                "purple"
+            ],
+            "firstSong": "Ice Resistance Boost (L)",
+            "encoreSong": "Ice Resistance Boost Bonus",
+            "firstDuration": 120,
+            "encoreExtension": -1
+        },
+        {
+            "notes": [
+                "yellow",
+                "yellow",
+                "yellow"
+            ],
+            "firstSong": "Sonic Waves",
+            "encoreSong": "N/A",
+            "firstDuration": -1,
+            "encoreExtension": -1
+        },
+        {
+            "notes": [
+                "purple",
+                "purple"
+            ],
+            "firstSong": "Movement Speed Up",
+            "encoreSong": "Attack Deflection Prevention",
+            "firstDuration": 180,
+            "encoreExtension": 90
+        },
+        {
+            "notes": [
+                "purple",
+                "green",
+                "purple"
+            ],
+            "firstSong": "Health Recovery (S)",
+            "encoreSong": "N/A",
+            "firstDuration": -1,
+            "encoreExtension": -1
+        },
+        {
+            "notes": [
+                "green",
+                "green",
+                "purple",
+                "aqua"
+            ],
+            "firstSong": "Health Recovery (L)",
+            "encoreSong": "N/A",
+            "firstDuration": -1,
+            "encoreExtension": -1
+        },
+        {
+            "notes": [
+                "aqua",
+                "aqua",
+                "green",
+                "purple"
+            ],
+            "firstSong": "Hearing Protection (L)",
+            "encoreSong": "N/A",
+            "firstDuration": 180,
+            "encoreExtension": -1
+        },
+        {
+            "notes": [
+                "aqua",
+                "aqua",
+                "aqua"
+            ],
+            "firstSong": "Snow/Mud Negated",
+            "encoreSong": "N/A",
+            "firstDuration": 180,
+            "encoreExtension": -1
+        },
+        {
+            "notes": [
+                "purple",
+                "purple"
+            ],
+            "firstSong": "Movement Speed Up",
+            "encoreSong": "Attack Deflection Prevention",
+            "firstDuration": 180,
+            "encoreExtension": 90
+        },
+        {
+            "notes": [
+                "purple",
+                "green",
+                "purple"
+            ],
+            "firstSong": "Health Recovery (S)",
+            "encoreSong": "N/A",
+            "firstDuration": -1,
+            "encoreExtension": -1
+        },
+        {
+            "notes": [
+                "purple",
+                "green",
+                "yellow",
+                "green"
+            ],
+            "firstSong": "Elemental Attack Boost",
+            "encoreSong": "Elemental Attack Boost Bonus",
+            "firstDuration": 90,
+            "encoreExtension": 60
+        },
+        {
+            "notes": [
+                "green",
+                "yellow",
+                "purple",
+                "yellow"
+            ],
+            "firstSong": "Divine Protection",
+            "encoreSong": "N/A",
+            "firstDuration": 120,
+            "encoreExtension": -1
+        },
+        {
+            "notes": [
+                "green",
+                "green",
+                "yellow"
+            ],
+            "firstSong": "Recovery Speed Up (S)",
+            "encoreSong": "N/A",
+            "firstDuration": 120,
+            "encoreExtension": -1
+        },
+        {
+            "notes": [
+                "yellow",
+                "green",
+                "purple"
+            ],
+            "firstSong": "Thunder Resistance Boost (L)",
+            "encoreSong": "Thunder Resistance Boost Bonus",
+            "firstDuration": 120,
+            "encoreExtension": -1
+        },
+        {
+            "notes": [
+                "yellow",
+                "yellow",
+                "yellow"
+            ],
+            "firstSong": "Sonic Waves",
+            "encoreSong": "N/A",
+            "firstDuration": -1,
+            "encoreExtension": -1
+        },
+        {
+            "notes": [
+                "purple",
+                "purple"
+            ],
+            "firstSong": "Movement Speed Up",
+            "encoreSong": "Attack Deflection Prevention",
+            "firstDuration": 180,
+            "encoreExtension": 90
+        },
+        {
+            "notes": [
+                "purple",
+                "yellow",
+                "aqua"
+            ],
+            "firstSong": "Dragon Resistance Boost (L)",
+            "encoreSong": "Dragon Resistance Boost Bonus",
+            "firstDuration": 120,
+            "encoreExtension": -1
+        },
+        {
+            "notes": [
+                "yellow",
+                "aqua",
+                "purple"
+            ],
+            "firstSong": "Water Resistance Boost (L)",
+            "encoreSong": "Water Resistance Boost Bonus",
+            "firstDuration": 120,
+            "encoreExtension": -1
+        },
+        {
+            "notes": [
+                "yellow",
+                "aqua",
+                "yellow",
+                "aqua"
+            ],
+            "firstSong": "Elemental Attack Boost",
+            "encoreSong": "Elemental Attack Boost Bonus",
+            "firstDuration": 90,
+            "encoreExtension": 60
+        },
+        {
+            "notes": [
+                "yellow",
+                "yellow",
+                "yellow"
+            ],
+            "firstSong": "Sonic Waves",
+            "encoreSong": "N/A",
+            "firstDuration": -1,
+            "encoreExtension": -1
+        },
+        {
+            "notes": [
+                "aqua",
+                "aqua",
+                "aqua"
+            ],
+            "firstSong": "Snow/Mud Negated",
+            "encoreSong": "N/A",
+            "firstDuration": 180,
+            "encoreExtension": -1
+        },
+        {
+            "notes": [
+                "aqua",
+                "aqua",
+                "yellow"
+            ],
+            "firstSong": "Tremor Resistance",
+            "encoreSong": "N/A",
+            "firstDuration": 180,
+            "encoreExtension": -1
+        },
+        {
+            "notes": [
+                "aqua",
+                "yellow",
+                "purple"
+            ],
+            "firstSong": "Negate Paralysis",
+            "encoreSong": "N/A",
+            "firstDuration": 180,
+            "encoreExtension": -1
+        },
+        {
+            "notes": [
+                "purple",
+                "purple"
+            ],
+            "firstSong": "Movement Speed Up",
+            "encoreSong": "Attack Deflection Prevention",
+            "firstDuration": 180,
+            "encoreExtension": 90
+        },
+        {
+            "notes": [
+                "purple",
+                "orange",
+                "orange",
+                "red"
+            ],
+            "firstSong": "Attack Boost (L)",
+            "encoreSong": "Attack Boost Bonus",
+            "firstDuration": 90,
+            "encoreExtension": 60
+        },
+        {
+            "notes": [
+                "red",
+                "orange",
+                "red",
+                "purple"
+            ],
+            "firstSong": "Knockback Protection",
+            "encoreSong": "N/A",
+            "firstDuration": -1,
+            "encoreExtension": -1
+        },
+        {
+            "notes": [
+                "orange",
+                "red",
+                "orange"
+            ],
+            "firstSong": "Melody Durations Extended",
+            "encoreSong": "N/A",
+            "firstDuration": -1,
+            "encoreExtension": 30
+        },
+        {
+            "notes": [
+                "purple",
+                "purple"
+            ],
+            "firstSong": "Movement Speed Up",
+            "encoreSong": "Attack Deflection Prevention",
+            "firstDuration": 180,
+            "encoreExtension": 90
+        },
+        {
+            "notes": [
+                "orange",
+                "blue",
+                "purple",
+                "blue"
+            ],
+            "firstSong": "Attack & Defense Boost (S)",
+            "encoreSong": "Attack and Defense Boost Bonus",
+            "firstDuration": 120,
+            "encoreExtension": 90
+        },
+        {
+            "notes": [
+                "purple",
+                "blue",
+                "orange",
+                "orange"
+            ],
+            "firstSong": "Attack & Defense Boost (S)",
+            "encoreSong": "Attack and Defense Boost Bonus",
+            "firstDuration": 120,
+            "encoreExtension": 90
+        },
+        {
+            "notes": [
+                "purple",
+                "blue",
+                "blue",
+                "purple"
+            ],
+            "firstSong": "Defense Boost (L)",
+            "encoreSong": "Defense Boost Bonus",
+            "firstDuration": 90,
+            "encoreExtension": 60
+        },
+        {
+            "notes": [
+                "purple",
+                "orange",
+                "blue",
+                "orange"
+            ],
+            "firstSong": "Negate Stamina Use (L)",
+            "encoreSong": "Negate Stamina Duration Bonus",
+            "firstDuration": 120,
+            "encoreExtension": 90
+        },
+        {
+            "notes": [
+                "blue",
+                "blue",
+                "orange"
+            ],
+            "firstSong": "Wind Pressure Negated",
+            "encoreSong": "All Wind Pressure Negated",
+            "firstDuration": 180,
+            "encoreExtension": 120
+        },
+        {
+            "notes": [
+                "purple",
+                "purple"
+            ],
+            "firstSong": "Movement Speed Up",
+            "encoreSong": "Attack Deflection Prevention",
+            "firstDuration": 180,
+            "encoreExtension": 90
+        },
+        {
+            "notes": [
+                "purple",
+                "orange",
+                "purple",
+                "aqua"
+            ],
+            "firstSong": "Divine Protection",
+            "encoreSong": "N/A",
+            "firstDuration": 120,
+            "encoreExtension": -1
+        },
+        {
+            "notes": [
+                "aqua",
+                "purple",
+                "orange",
+                "orange"
+            ],
+            "firstSong": "Abnormal Status Negated",
+            "encoreSong": "Abnormal Status NegatedDuration Bonus",
+            "firstDuration": 120,
+            "encoreExtension": 60
+        },
+        {
+            "notes": [
+                "aqua",
+                "aqua",
+                "aqua"
+            ],
+            "firstSong": "Snow/Mud Negated",
+            "encoreSong": "N/A",
+            "firstDuration": 180,
+            "encoreExtension": -1
+        },
+        {
+            "notes": [
+                "aqua",
+                "orange",
+                "orange",
+                "purple"
+            ],
+            "firstSong": "Status Attack Boost",
+            "encoreSong": "Status Attack Boost Bonus",
+            "firstDuration": 90,
+            "encoreExtension": 60
+        },
+        {
+            "notes": [
+                "purple",
+                "purple"
+            ],
+            "firstSong": "Movement Speed Up",
+            "encoreSong": "Attack Deflection Prevention",
+            "firstDuration": 180,
+            "encoreExtension": 90
+        },
+        {
+            "notes": [
+                "purple",
+                "green",
+                "purple"
+            ],
+            "firstSong": "Health Recovery (S)",
+            "encoreSong": "N/A",
+            "firstDuration": -1,
+            "encoreExtension": -1
+        },
+        {
+            "notes": [
+                "green",
+                "orange",
+                "purple",
+                "orange"
+            ],
+            "firstSong": "Health Rec (S) &Affinity Boost",
+            "encoreSong": "Health Rec (S) &Affinity Boost Bonus",
+            "firstDuration": 120,
+            "encoreExtension": 90
+        },
+        {
+            "notes": [
+                "orange",
+                "orange",
+                "green",
+                "purple"
+            ],
+            "firstSong": "Hearing Protection (L)",
+            "encoreSong": "N/A",
+            "firstDuration": 180,
+            "encoreExtension": -1
+        },
+        {
+            "notes": [
+                "purple",
+                "purple"
+            ],
+            "firstSong": "Movement Speed Up",
+            "encoreSong": "Attack Deflection Prevention",
+            "firstDuration": 180,
+            "encoreExtension": 90
+        },
+        {
+            "notes": [
+                "purple",
+                "yellow",
+                "orange",
+                "yellow"
+            ],
+            "firstSong": "Hearing Protection (S) &Wind Pressure Negated",
+            "encoreSong": "Hearing Protection (L) &All Wind Pressure Negated",
+            "firstDuration": 180,
+            "encoreExtension": -1
+        },
+        {
+            "notes": [
+                "purple",
+                "orange",
+                "yellow",
+                "orange"
+            ],
+            "firstSong": "Elemental Attack Boost",
+            "encoreSong": "Elemental Attack Boost Bonus",
+            "firstDuration": 90,
+            "encoreExtension": 60
+        },
+        {
+            "notes": [
+                "yellow",
+                "yellow",
+                "yellow"
+            ],
+            "firstSong": "Sonic Waves",
+            "encoreSong": "N/A",
+            "firstDuration": -1,
+            "encoreExtension": -1
+        },
+        {
+            "notes": [
+                "yellow",
+                "orange",
+                "purple"
+            ],
+            "firstSong": "Blight Resistance Boost",
+            "encoreSong": "Blight Resistance Boost Bonus",
+            "firstDuration": 90,
+            "encoreExtension": 60
+        },
+        {
+            "notes": [
+                "orange",
+                "yellow",
+                "yellow",
+                "orange"
+            ],
+            "firstSong": "Blights Negated",
+            "encoreSong": "N/A",
+            "firstDuration": 120,
+            "encoreExtension": -1
         }
     ]
 }
